@@ -1,0 +1,235 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+
+
+header{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    text-transform: capitalize;
+    height: auto;
+    margin: auto; 
+    background-color: black;
+}
+  .contenido {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: black        
+}
+
+/*aca empieza el body*/
+h1{
+  text-align: center;
+  text-transform: capitalize;
+  color: gray;
+  padding: 10px;
+  font-size: 4rem;
+}
+   
+h2{ color: white;
+    text-align: center;
+    text-decoration: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+}
+h3{
+    color: gray;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    
+} 
+h4{
+  padding: 20px;
+}
+h5{
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+}
+.grid-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+
+ 
+ border: solid 1px rgb(255, 255, 255);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+.grid-item:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  grid-auto-rows: minmax(600px, auto);
+  gap: 50px;
+  padding: 50px;
+}
+.grid-containerUno{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-auto-rows: minmax(350px, 1 fr);
+  gap: 90px;
+  padding: 50px;
+}
+.card-body {
+  position: absolute;
+  padding-top: 550px;
+  padding-bottom: 90px;
+}
+.card-title{
+  color: rgb(29, 26, 226);
+}
+.card-title:hover{
+  background-color: aquamarine;
+}
+.btn:hover{
+  background-color: rgb(19, 27, 25);
+}
+.tienda{
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: gray;
+  font-size: 20px;
+}
+.grid{
+  display: flex;
+}
+.cajas{
+  width: 350px;
+  padding: 15px;
+  border-radius: 2px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 15px;
+  
+}
+.caja{
+  height: 250px;
+}
+.borrar{
+  width: 120px;
+ 
+}
+.enviar{
+  width: 120px;
+ 
+}
+.menu{
+  background-color: black;
+  padding: 5px 0;
+}
+legend{
+  color: gray
+}
+
+.tridenteUno{
+  width: 33%;
+  padding: right 40px;
+  padding: 10px;
+  text-align: center;
+}
+.tridenteDos{
+  align-content: center;
+  width: 33%;
+  padding: 10px;
+  text-align: center;
+}
+.tridenteTres{
+  align-content: flex-end;
+  width: 33%;
+  padding: 10px;
+  text-align: center;
+}
+.datos{
+  color: white;
+}
+.formulario{
+    display: block;
+    padding: 50px 100px 50px 50px;
+    margin-left: 40%;
+    flex-wrap: nowrap;
+    width: 20%;
+    height: 20%;
+}
+    /*aca empieza el footer*/
+    .ul .a {
+      display: block;
+      padding: 20px 30px;
+      margin: 100%
+}
+.ul .liv{
+  display: block;
+  padding: 10px;
+  flex-wrap: nowrap;
+  float: left;
+}
+.mediosPago {
+        text-align: left;
+        text-transform: capitalize;
+        padding-top: 20px;
+}
+.envios {
+        text-align: center; 
+        text-transform: capitalize;   
+        padding-top: 20px;    
+}
+.contactos {
+        text-align: right; 
+        text-transform: capitalize;  
+        padding-top: 20px;    
+}
+.finalPagina {
+        text-align: center;
+        text-transform: capitalize;
+        padding-bottom: 20px;
+}  
+
+
+
+button:hover {
+  background-color: blue;
+}
+    /* aca termina el footer*/
+    /* animaciones */
+      h2{
+        animation-duration: 2s;
+        animation-name: slidein;
+      }
+
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+     
+      footer{
+        background-color: black;
+        color: white;
+        border: solid  white;
+      }
+      
+    
+  
